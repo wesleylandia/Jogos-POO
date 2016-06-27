@@ -82,20 +82,20 @@ int main()
 
 			cout << "<HACKEANDO SISTEMA> DIGITE CODIGO [1 ATE 4] " << endl;
 		
-			cout << "<DIGITE PRIMEIRO NUMERO DO CODIGO NO TERMINAL> ";
+			cout << "<DIGITE O PRIMEIRO NUMERO DO CODIGO NO TERMINAL> ";
 			cin >> codigo;
 			if (codigo == num1) cod1 = true;
 
-			cout << "<DIGITE SEGUNDO NUMERO DO CODIGO NO TERMINAL> ";
+			cout << "<DIGITE O SEGUNDO NUMERO DO CODIGO NO TERMINAL> ";
 			cin >> codigo;
 			if (codigo == num2) cod2 = true;		
 		
 			// ------ REPITA O CÓDIGO ACIMA PARA O TERCEIRO E QUARTO NUMERO QUE PRECISAM SER DIGITADOS ------
-			cout << "<DIGITE TERCEIRO NUMERO DO CODIGO NO TERMINAL> ";
+			cout << "<DIGITE O TERCEIRO NUMERO DO CODIGO NO TERMINAL> ";
 			cin >> codigo;
 			if (codigo == num3) cod3 = true;
 			
-			cout << "<DIGITE QUARTO NUMERO DO CODIGO NO TERMINAL> ";
+			cout << "<DIGITE O QUARTO NUMERO DO CODIGO NO TERMINAL> ";
 			cin >> codigo;
 			if (codigo == num4) cod4 = true;
 			// ------ FAÇA UM LAÇO DE 0 ATÉ 100, PULANDO DE 10 EM 10, QUE REPITA AS DUAS LINHAS ABAIXO ------
@@ -113,7 +113,7 @@ int main()
 	}
 
 	// ------ FAÇA UM LAÇO QUE COLOQUE 4 LINHAS EM TELA ------
-	for (int cont = 0; cont < 5; cont++) cout << endl;
+	for (int cont = 0; cont < 4; cont++) cout << endl;
 	cout << "O codigo foi quebrado. Os arquivos finalmente sao seus." << endl;
 	// ------ FAÇA UM LAÇO QUE COLOQUE 4 LINHAS EM TELA ------
 	for (int cont = 0; cont < 4; cont++) cout << endl;
